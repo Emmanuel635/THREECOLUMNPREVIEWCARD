@@ -1,0 +1,53 @@
+/***********************************/
+/* 928PX BELOW (SMALL LAPTOP) */
+/***********************************/
+@media (max-width: 58em) {
+  html {
+    font-size: 52.5%;
+  }
+
+  .col-3-preview-card {
+    width: 75rem;
+  }
+}
+
+/***********************************/
+/* 672PX BELOW (TABLETS) */
+/***********************************/
+@media (max-width: 42em) {
+  html {
+    font-size: 42.5%;
+  }
+}
+
+/***********************************/
+/* 544PX BELOW (SMALLER TABLETS) */
+/***********************************/
+@media (max-width: 34em) {
+  html {
+    font-size: 32.5%;
+  }
+}
+
+/***********************************/
+/* 400PX BELOW (PHONES) */
+/***********************************/
+@media (max-width: 25em) {
+  .col-3-preview-card {
+    width: 31.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .preview_icon {
+    margin-bottom: 3rem;
+  }
+
+  .preview_title {
+    margin-bottom: 3rem;
+  }
+
+  .preview_description {
+    margin-bottom: 2rem;
+  }
+}

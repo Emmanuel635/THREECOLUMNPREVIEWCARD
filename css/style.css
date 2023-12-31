@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 144rem;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.col-3-preview-card {
+  width: 90rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.col_1_preview_box {
+  background-color: hsl(31, 77%, 52%);
+  padding: 4rem;
+}
+
+.preview_icon {
+  margin-bottom: 4rem;
+  width: 4.8rem;
+  height: 3.2rem;
+}
+
+.preview_title {
+  margin-bottom: 4rem;
+  font-size: 3rem;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+}
+
+.preview_description {
+  font-size: 1.5rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.7;
+  margin-bottom: 6.4rem;
+}
+
+.preview_btn:link,
+.preview_btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border-radius: 2rem;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.preview_btn:hover,
+.preview_btn:active {
+  background-color: hsla(0, 0%, 95%, 0);
+  color: hsl(0, 0%, 95%);
+  box-shadow: inset 0 0 0 0.2rem hsl(0, 0%, 95%);
+}
+
+.preview_btn__orange {
+  color: hsl(31, 77%, 52%);
+}
+
+.preview_btn__cyan {
+  color: hsl(184, 100%, 22%);
+}
+.preview_btn__dark__cyan {
+  color: hsl(179, 100%, 13%);
+}
+
+.col_2_preview_box {
+  background-color: hsl(184, 100%, 22%);
+  padding: 4rem;
+}
+
+.col_3_preview_box {
+  background-color: hsl(179, 100%, 13%);
+  padding: 4rem;
+}
